@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Config';
+    src: url('/font/Config-Regular.woff2') format('woff2'),
+        url('/font/Config-Regular.woff') format('woff'),
+        url('/font/Config-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.background {
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index: -2;
+    background-image: url("../img/background.gif");
+    background-size: 100% 100%;
+
+}
+
+.window {
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index: -2;
+}
